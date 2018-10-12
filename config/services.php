@@ -35,4 +35,7 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'slack' => [
+        'webhook-url' => env('SLACK_NOTIFICATION_WEBHOOK'),
+    ],
 ];
