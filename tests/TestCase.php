@@ -25,4 +25,9 @@ abstract class TestCase extends BaseTestCase
     {
         $this->sentry->shouldHaveReceived('captureException')->with(Mockery::type($class));
     }
+
+    protected function assertNoExceptionsSentToSentry()
+    {
+        $this->sentry->shouldNotHaveReceived('captureException');
+    }
 }
