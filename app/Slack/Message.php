@@ -9,6 +9,11 @@ class Message
 {
     private $message = [];
 
+    public function __construct()
+    {
+        $this->message = ['username' => 'Pulse', "icon_emoji" => ":rocket:"];
+    }
+
     /**
      * Set the test for this message
      *

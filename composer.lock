@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0bb0389f04efa8cad21c521f88f689ad",
+    "content-hash": "6b5b4bbc72f48964d7a49866292662cb",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2989,16 +2989,16 @@
         },
         {
             "name": "sentry/sentry-laravel",
-            "version": "0.10.0",
+            "version": "0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-laravel.git",
-                "reference": "bca732f2947adc9f41811bde25c54f2fd0a7e700"
+                "reference": "21329406001006ffa5736ee08222e7ffae9e1dcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/bca732f2947adc9f41811bde25c54f2fd0a7e700",
-                "reference": "bca732f2947adc9f41811bde25c54f2fd0a7e700",
+                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/21329406001006ffa5736ee08222e7ffae9e1dcf",
+                "reference": "21329406001006ffa5736ee08222e7ffae9e1dcf",
                 "shasum": ""
             },
             "require": {
@@ -3015,7 +3015,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.10.x-dev"
+                    "dev-master": "0.11.x-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -3049,7 +3049,7 @@
                 "logging",
                 "sentry"
             ],
-            "time": "2018-09-04T13:48:59+00:00"
+            "time": "2018-11-01T12:52:14+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
